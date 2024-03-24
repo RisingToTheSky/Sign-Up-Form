@@ -1,13 +1,10 @@
-* {
-    font-family: Roboto, sans-serif;
-}
-
 @font-face {
-    font-family: Norse-Bold, sans-serif;
+    font-family: Norse-Bold;
     src: url('/fonts/Norse-Bold.otf');
 }
 body {
     display: flex;
+    font-family: Roboto, sans-serif;
 }
 
 /*Image section */
@@ -30,20 +27,24 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
+    align-items: center;
     position: absolute;
     top: 20vh;
     width: 40vw;
+    height: 20vh;
+    font-family: Norse-Bold;
+    color: white;
 }
 
 .logo > img {
-    width: 150px;
-    height: 200px;
+    width: 75px;
+    height: 100px;
 }
 
 .logo > p {
-    color: white;
-    font-size: 4em;
+    font-size: 100px;
 }
+
 
 
 

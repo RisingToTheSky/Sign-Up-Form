@@ -93,7 +93,7 @@ p > a {
     box-shadow: 0 5px 10px hsla(0, 0%, 0%, 0.2);
     padding-left: 50px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     width: 57.2vw;
     height: 20vh;
 }
@@ -113,11 +113,16 @@ form {
 
 label, input {
     font-family: inherit;
-    font-size: 85%;
-    width: 300px;
+    font-size: 75%;
+    font-weight: 600;
+    color: #424242;
+    width: 200px;
     display: block;
 }
 
+label {
+    letter-spacing: 1px;
+}
 
 input {
     appearance: none;
@@ -125,6 +130,7 @@ input {
     border-radius: 5px;
     outline: none;
     padding: 5px 5px 5px 10px;
+    margin-bottom: 15px;
 }
 
 input:focus {
@@ -142,7 +148,7 @@ input[type="password"]:invalid {
 
 .footer-div {
     padding-left: 50px;
-    padding-top: 25px;
+    padding-top: 30px;
 }
 
 button[type="submit"] {

@@ -15,7 +15,7 @@
 
 body {
     display: flex;
-    font-family: Roboto, sans-serif;
+    font-family: sans-serif;
 }
 
 /*Image section */
@@ -24,7 +24,10 @@ body {
     width: 40vw;
     height: 100vh;
 }
-
+.green-image {
+    display: flex;
+    justify-content: center;
+}
 .green-image > img {
     width: 40vw;
     height: 100vh;
@@ -32,6 +35,14 @@ body {
 
 .green-image > p {
     font-size: 16px;
+    position: absolute;
+    bottom: 16px;
+    color: var(--white);
+}
+
+p > a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .logo {
@@ -62,28 +73,48 @@ body {
     background-color: var(--white);
 }
 
-.right-div > h1 {
+.right-div > h2 {
    padding-left: 50px;
    padding-top: 20px;
 }
 
 .header-div {
-    margin-top: 6vh;
+    margin-top: 10vh;
     padding: 50px;
 }
 
-.header-div > h1 {
-    width: 90%;
+.header-div > h2 {
+    max-width: 55ch;
 }
 
 .form-div {
     margin-top: 6vh;
     background-color: var(--light-gray);
     box-shadow: 0 5px 10px hsla(0, 0%, 0%, 0.2);
-    padding: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 57vw;
+}
+
+form > p {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+form {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 5px;
 }
 
 
+input {
+  font-family: inherit;
+  font-size: 100%;
+  width: 300px;
+}
 
 /* Footer section */
 
